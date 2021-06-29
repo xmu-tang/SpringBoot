@@ -19,7 +19,7 @@ public class MyController {
     public String getUser(@PathVariable("id") int id) {
         return categoryServiceTest.getCategory(id).toString();
     }
-    @RequestMapping("hello")
+    @RequestMapping("helloworld")
     public String out(){
         return "hello";
     }
